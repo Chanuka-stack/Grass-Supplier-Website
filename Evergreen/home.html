@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="icon" type="image/x-icon" href="./Client/images/logo.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="Client/css/styles1.css">
+
+        <script>
+            function sideBar(){
+                const checkbox = document.getElementById("check");
+                if (checkbox.checked) {
+                    document.getElementById("navbar").style.left="0";
+                } else {
+                    document.getElementById("navbar").style.left="-100%";
+                }
+            }
+
+            var x = 0;
+            var images = new Array("Client/images/grass2.jpg","Client/images/grass9.jpg","Client/images/grass1.jpg");
+            var i = setInterval(auto, 2500);
+            function auto()
+            {
+                x++;
+                    if(x == images.length)
+                        x=0;
+                document.getElementById('changeimg').src=images[x];   
+            }
+        </script>
+    </head>
+    
+    
+    <body>
+        <div class="headernnav">
+            <header>
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <div class="headertitle">EVERGREEN GRASS SUPPLIERS</div>
+                <input type="checkbox" id="check" onchange="sideBar()"></input>
+                <span class="checkbtn2">
+                </span>
+           
+            </header>
+            
+            <nav id="navbar">
+                <div class="firstitem"><a href="home.html" class="anav active">HOME</a></div>
+                <div class="item"><a href="aboutus.html" class="anav">ABOUT US</a></div>
+                <div class="item"><a href="gallery.html" class="anav">GALLERY</a></div>
+                <div class="item"><a href="shop.php" class="anav">SHOP</a></div>
+                <div class="lastitem"><a href="contactus.php" class="anav">CONTACT US</a></div>
+            </nav>
+        </div>
+        <h1 class="h1-home">THE BEST PLACE TO BUY GRASS IN SRI LANKA</h1>
+
+        <img src="Client/images/grass2.jpg" class="headimage" id="changeimg"></img>
+        <p class="p-home" style="padding:45px 20px;">We provide the highest-quality grass-related items in Sri Lanka for 
+            a very fair price. We've been providing grass in Sri Lanka for more than 
+            ten years. We have sold our products all around the country. 
+            We have the capability to provide any range of orders.</p>
+        <h2>Malaysian grasses</h2>
+        
+        <p class="p-home">There is a diverse range of grass species that are suitable for landscaping. Among the Malaysian grasses that
+        are popular to use in landscaping scientific name is Zoysia matrella, Malaysian grasses can offer a variety of 
+        options for landscaping depending on the desired aesthetic and 
+        functional requirements. It is important to select the appropriate grass species based on the specific site 
+        conditions and maintenance needs.</p>
+        <img src="Client/images/mal_grass1.jpg" class="grasstypeimg" alt="Malaysian Grass"></img><br>
+        <h2>Australian grass</h2>
+        
+        <p class="p-home">Australian grass is excellent for dry environments. With its connected strong root system, it can handle bright sunshine. 
+            Australian grass has long spiky leaves. This grass can be 
+            used in high-end residential landscapes, commercial landscapes, sports fields, and high-traffic areas and can withstand heavy use.</p>
+            <img src="Client/images/aus_grass1.jpg" class="grasstypeimg" alt="Australian Grass"></img>
+    </body>
+    <div class="footer1">
+        <div class="address">
+            <p class="footerhead">EVERGREEN GRASS SUPPLIERS<br></p>
+            No 12, Rajawaththa,<br>
+            Pamunugama<br>
+            <a href="tel:+94778977848" class="footer-mobile">077 8977848</a>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3958.926528045738!2d79.837295!3d7.1344949999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDgnMDQuMiJOIDc5wrA1MCcxNC4zIkU!5e0!3m2!1sen!2slk!4v1679242201575!5m2!1sen!2slk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        </div>
+    </div>
+
+</html>

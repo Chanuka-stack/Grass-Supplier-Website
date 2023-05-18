@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery</title>
+        <link rel="icon" type="image/x-icon" href="./Client/images/logo.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="Client/css/styles1.css">
+        <link rel="stylesheet" href="Client/css/styles2.css">
+        <script>
+            function sideBar(){
+                const checkbox = document.getElementById("check");
+                if (checkbox.checked) {
+                    document.getElementById("navbar").style.left="0";
+                } else {
+                    document.getElementById("navbar").style.left="-100%";
+                }
+            }
+        </script>
+    </head>
+    
+    
+    <body>
+        <div class="headernnav">
+            <header>
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <div class="headertitle">EVERGREEN GRASS SUPPLIERS</div>
+                <input type="checkbox" id="check" onchange="sideBar()"></input>
+                <span class="checkbtn2">
+                </span>
+           
+            </header>
+            
+            <nav id="navbar">
+                <div class="firstitem"><a href="home.html" class="anav">HOME</a></div>
+                <div class="item"><a href="aboutus.html" class="anav">ABOUT US</a></div>
+                <div class="item"><a href="gallery.html" class="anav active">GALLERY</a></div>
+                <div class="item"><a href="shop.php" class="anav">SHOP</a></div>
+                <div class="lastitem"><a href="contactus.php" class="anav">CONTACT US</a></div>
+            </nav>
+        </div>
+        <div class="gallery-divider">
+            <div class="gallery-bar">
+                <a target="_blank" href="Client/images/gallery/1.jpeg" class="a-gallery"><img src="Client/images/gallery/1.jpeg" class="gallery-image-box"></img></a>
+                <a target="_blank" href="Client/images/gallery/9.jpeg" class="a-gallery"><img src="Client/images/gallery/9.jpeg" class="gallery-image-box"></img></a>
+                <a target="_blank" href="Client/images/gallery/15.jpeg" class="a-gallery"><img src="Client/images/gallery/15.jpeg" class="gallery-image-box"></img></a>   
+                <a target="_blank" href="Client/images/gallery/5.jpeg" class="a-gallery"><img src="Client/images/gallery/5.jpeg" class="gallery-image-box"></img></a>
+                <a target="_blank" href="Client/images/gallery/3.jpeg" class="a-gallery"><img src="Client/images/gallery/3.jpeg" class="gallery-image-box"></img></a>   
+                <a target="_blank" href="Client/images/gallery/19.jpeg" class="a-gallery"><img src="Client/images/gallery/19.jpeg" class="gallery-image-box"></img></a>   
+                
+            </div>
+            <div class="gallery-bar">
+                <a target="_blank" href="Client/images/gallery/12.jpeg" class="a-gallery"><img src="Client/images/gallery/12.jpeg" class="gallery-image-box"></img></a>
+                <a target="_blank" href="Client/images/gallery/11.jpeg" class="a-gallery"><img src="Client/images/gallery/11.jpeg" class="gallery-image-box"></img></a>
+                <a target="_blank" href="Client/images/gallery/14.jpeg" class="a-gallery"><img src="Client/images/gallery/14.jpeg" class="gallery-image-box"></img></a>
+                <a target="_blank" href="Client/images/gallery/7.jpeg" class="a-gallery"><img src="Client/images/gallery/7.jpeg" class="gallery-image-box"></img></a>
+                <a target="_blank" href="Client/images/gallery/18.jpeg" class="a-gallery"><img src="Client/images/gallery/18.jpeg" class="gallery-image-box"></img></a>
+                <a target="_blank" href="Client/images/gallery/13.jpeg" class="a-gallery"><img src="Client/images/gallery/13.jpeg" class="gallery-image-box"></img></a>  
+                <a target="_blank" href="Client/images/gallery/20.jpeg" class="a-gallery"><img src="Client/images/gallery/20.jpg" class="gallery-image-box"></img></a>            
+            </div>
+        </div>
+
+    </body>
+    <div class="footer1">
+        <div class="address">
+            <p class="footerhead">EVERGREEN GRASS SUPPLIERS<br></p>
+            No 12, Rajawaththa,<br>
+            Pamunugama<br>
+            <a href="tel:+94778977848" class="footer-mobile">077 8977848</a>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3958.926528045738!2d79.837295!3d7.1344949999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDgnMDQuMiJOIDc5wrA1MCcxNC4zIkU!5e0!3m2!1sen!2slk!4v1679242201575!5m2!1sen!2slk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        </div>
+    </div>
+
+</html>

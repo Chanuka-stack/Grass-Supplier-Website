@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 628 333" style="enable-background:new 0 0 628 333;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#19A24A;stroke:#19A24A;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:21px;}
+</style>
+<rect x="7.41" y="57.84" class="st0" width="516.48" height="265.38"/>
+<g>
+	<g>
+		<line class="st1" x1="13.44" y1="40.27" x2="512.91" y2="41.35"/>
+		<g>
+			<path d="M7.41,40.26c2.84,1.06,6.36,2.87,8.54,4.77l-1.71-4.76l1.73-4.75C13.78,37.42,10.25,39.22,7.41,40.26z"/>
+		</g>
+		<g>
+			<path d="M518.95,41.36c-2.84,1.05-6.37,2.84-8.56,4.74l1.73-4.75l-1.71-4.76C512.59,38.5,516.11,40.3,518.95,41.36z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="539.26" y1="60.58" x2="538.74" y2="317.19"/>
+		<g>
+			<path d="M539.27,54.55c-1.06,2.84-2.86,6.36-4.77,8.54l4.76-1.71l4.75,1.73C542.11,60.92,540.32,57.39,539.27,54.55z"/>
+		</g>
+		<g>
+			<path d="M538.73,323.23c-1.05-2.84-2.84-6.37-4.74-8.56l4.75,1.73l4.76-1.71C541.59,316.87,539.78,320.39,538.73,323.23z"/>
+		</g>
+	</g>
+</g>
+<rect x="-54.68" y="5.93" class="st2" width="286.81" height="0.55"/>
+<rect x="245.45" y="11.21" class="st2" width="206.32" height="76.96"/>
+<text transform="matrix(1 0 0 1 245.4515 26.1238)" class="st3 st4">5 feet</text>
+<rect x="554.11" y="178.32" class="st2" width="92.86" height="63.04"/>
+<text transform="matrix(1 0 0 1 554.1099 193.2283)" class="st3 st4">2 feet</text>
+</svg>
